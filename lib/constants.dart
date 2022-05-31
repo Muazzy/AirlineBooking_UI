@@ -96,18 +96,19 @@ class CustomButton extends StatelessWidget {
     return Container(
       height: 60,
       decoration: BoxDecoration(
-          color: korange,
-          borderRadius: const BorderRadius.all(
-            Radius.circular(20.0),
-          ),
-          boxShadow: [
-            BoxShadow(
-              color: klight.withOpacity(0.15),
-              spreadRadius: 5,
-              blurRadius: 10,
-              offset: Offset(0, 3),
-            )
-          ]),
+        color: korange,
+        borderRadius: const BorderRadius.all(
+          Radius.circular(20.0),
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: klight.withOpacity(0.15),
+            spreadRadius: 5,
+            blurRadius: 10,
+            offset: Offset(0, 3),
+          )
+        ],
+      ),
       child: Center(
         child: GestureDetector(
           onTap: () {},
